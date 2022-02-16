@@ -1,0 +1,35 @@
+PATH
+  remote: .
+  specs:
+    graphql_role_restrict (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.4.4)
+    rake (13.0.6)
+    rspec (3.7.0)
+      rspec-core (~> 3.7.0)
+      rspec-expectations (~> 3.7.0)
+      rspec-mocks (~> 3.7.0)
+    rspec-core (3.7.1)
+      rspec-support (~> 3.7.0)
+    rspec-expectations (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-mocks (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-support (3.7.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 2)
+  graphql_role_restrict!
+  rake (~> 13)
+  rspec
+
+BUNDLED WITH
+   2.0.1
